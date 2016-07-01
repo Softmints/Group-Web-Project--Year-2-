@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group 14 | 'Login'</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css" />
+    <script src="foundation/js/vendor/modernizr.js"></script>
+	
+	 <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  
+ <body>
+
+  <!--
+  Lines 17-41 define a Javascript function that checks if the user
+  has provided a value in the specific fields of a form.
+  If they have not it creates an alert box to tell them what they need to do.
+-->
+
+<script type="text/javascript">
+
+<!--
+
+function validate()
+{
+
+  if (document.Regform.Username.value == "")
+  {
+    alert("Please enter a Username.");
+    return false;
+  }
+
+  if (document.Regform.txtdob.value == "")
+  {
+    alert("Please enter a Date of Birth.");
+    return false;
+  }
+
+  if (document.Regform.Full_Name.value == "")
+  {
+    alert("Please enter your Full Name.");
+    return false;
+  }
+
+  if (document.Regform.Password.value == "")
+  {
+    alert("Please enter a Password.");
+    return false;
+  }
+
+  return ( true );
+
+}
+//-->
+
+</script>
+
+
+		 <div class="row">
+    <div class="large-6 columns">
+      <div class="signup-panel">
+        <p class="welcome"> Welcome G14's portal</p>
+        <form id='Regform' name='Regform' action="Reginfo.php" method="POST" onsubmit="return (validate());">
+          <div class="row collapse">
+            <div class="small-2  columns">
+              <span class="prefix"><i class="fi-torso-female"></i></span>
+            </div>
+            <div class="small-10  columns">
+              <input id="Username" name="Username" type="text" placeholder="Username">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-2 columns">
+              <span class="prefix"><i class="fi-mail"></i></span>
+            </div>
+            <div class="small-10  columns">
+              <input id="txtdob" name="dob" type="text" placeholder="eg. YYYY/MM/DD">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-2  columns">
+              <span class="prefix"><i class="fi-torso-female"></i></span>
+            </div>
+            <div class="small-10  columns">
+              <input id="Full_Name" name ="Full_Name" type="text" placeholder="Full Name">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-2 columns ">
+              <span class="prefix"><i class="fi-lock"></i></span>
+            </div>
+            <div class="small-10 columns ">
+              <input id="Password" name="Password" type="password" placeholder="Password">
+            </div>
+          </div>
+          <input id="signup" type ="submit" value="Sign Up">
+        </form>
+         <p>Already have an account? <a href="registeredusers.html">Login here &raquo</a></p>
+      </div>
+    </div>
+   </div>
+				
+	<!-- footer -->
+
+		<footer id="footer">
+			    <div class="row">
+					<div class="small-6 medium- 8 large-3 columns">
+						<p class="footerdes">
+							Designed by |  <a href="#"> GROUP 14</a>
+						</p>	
+					</div>
+
+						<div class="small-6 medium-4 large-9 columns">
+							<p align="center">
+								<a>Contact</a> | <a> Support </a>
+							</p>
+						</div>
+				</div>
+		</footer>
+					
+  			</section>
+
+		  <a class="exit-off-canvas"></a>
+
+		  </div>
+		</div>
+
+
+    <script src="foundation/js/vendor/jquery.js"></script>
+	<script src="foundation/js/foundation/foundation.js"></script>
+	<script src="foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+	
+  </body>
+  
+</html>

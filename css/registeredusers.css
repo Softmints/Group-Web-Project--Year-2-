@@ -1,0 +1,425 @@
+/* Styles for signup panels */
+.auth-plain {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.left-solid {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.signup-panel {
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+.signup-panel a{
+  color: #fff;
+}
+
+.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+.signup-panel form input, .signup-panel form span {
+  height: 50px;
+}
+.signup-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+.signup-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+.signup-panel .button {
+  margin-left: 35%;
+}
+
+.newusers {
+  background: #fff;
+}
+
+
+
+/* login */
+
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   background-color: white;
+}
+
+  
+html, body, .off-canvas-wrap, .inner-wrap, .main-section {
+  height: 100%;
+} 
+
+  
+  
+  /* Off Canvas Style */
+  
+  
+  
+ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+li {
+  margin: 1em 0;
+}
+
+
+.usetitle{
+  
+
+  font-size: 15px;
+  color: #DCDCDC;
+  text-align: center;
+  text-transform: uppercase;
+  text-align:center
+
+
+}
+
+.usernametitle{
+
+
+  font-size: 10px;
+  color: #DCDCDC;
+  text-align: center;
+  text-transform: uppercase;
+  text-align:center
+
+
+}
+
+
+
+/* .tabledes{
+
+  width: 100%;
+}
+
+
+
+.tabledes, h1{
+  font-size: 13px;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.subdet{
+
+  position: relative;
+  top: 10px;
+  font-size: 8px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabledes, table{
+  border-spacing: 7px;
+  }
+ */
+
+
+
+/* Header in general "Page one and two "*/
+
+
+
+.header {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #F8F8FF;
+  width: 100%;
+  height: 50px;
+  }
+  
+.headerfont{
+  position: relative;
+  bottom: 0.6rem;
+  font-weight: bold;
+}
+  
+  
+  
+/* Biography Field */
+
+.legend {
+    background-color: transparent;
+}
+
+.bio {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #F8F8FF; 
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  padding-bottom:0;
+  padding-top: 0;
+  }
+
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  padding:3px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#666B85;
+ /*  font-size:12px; */
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+/*   font-weight:300;
+  font-size:13px; */
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+.tabletd{
+
+  font-size: 0.8em;
+}
+
+.teptitle{
+  font-size: 0.8em;
+  
+}
+.tepsubtitle{
+  font-size: 0.8em;
+} 
+  
+
+/* footer Design */
+
+#footer{
+  background: #F8F8FF;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: black;
+    width: 100%;
+  font-size: 0.6em;
+  color: black;
+}
+
+.footerdes{
+  font-size: 0.9em;
+  color: black;
+}
+
+.p{
+  font-size: 12px;
+  color: black;
+}
+
+
+/* Dialogues Style  */
+
+/* One "Social App" */
+
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+background-color: #F8F8FF;
+border-color: #cf2a0e;
+color: black;
+cursor: default;
+opacity: 0.7;
+box-shadow: none;
+}
+button, .button {
+padding-top: 0.5rem;
+padding-right: 1rem;
+padding-bottom: 0.5rem;
+padding-left: 1rem;
+font-size: 1rem;
+}
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+        color: red; }
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+        background-color: #F8F8FF; }
+
+
+/* Button Design */
+
+.button2 {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  background-color: #b9b9b9;
+  border-color: #007095;
+  color: black;
+  border-radius: 3px;
+}
+
+.tab-bar{
+  position: fixed;
+}
+
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
+  color: black;
+  font-weight: bold;
+  line-height: 1.2rem;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+}
+
+table {
+  background: white;
+  margin-bottom: 1.25rem;
+  border: solid 1px #dddddd;
+  width: 100%;
+}
+
+ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  font-size: small;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 3px;
+  width: 90px;
+}
+
+.alerticon{
+  position: fixed;
+}
+
+
+
+.tab-bar .menu-icon {
+  text-indent: 2.1875rem;
+  width: 2.8125rem;
+  height: 3.1111rem;
+  display: block;
+  padding: 0;
+  color: white;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  background-color: #9c9492;
+}
+
+
+
+
+/* Trailers  */
+
+
+.fontsize{
+  font-size:small;
+}
+
+
+
+
